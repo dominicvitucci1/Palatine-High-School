@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6CBC3C41A22540500518BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C31A22540500518BFC /* AppDelegate.swift */; };
+		B6CBC3C71A22540500518BFC /* Palatine_High_School.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */; };
+		B6CBC3C91A22540500518BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3C81A22540500518BFC /* ViewController.swift */; };
+		B6CBC3CC1A22540500518BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CA1A22540500518BFC /* Main.storyboard */; };
+		B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CD1A22540500518BFC /* Images.xcassets */; };
+		B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */; };
+		B6CBC3DD1A22540500518BFC /* Palatine_High_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CBC3D71A22540500518BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CBC3B61A22540500518BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CBC3BD1A22540500518BFC;
+			remoteInfo = "Palatine High School";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6CBC3BE1A22540500518BFC /* Palatine High School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palatine High School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CBC3C21A22540500518BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CBC3C31A22540500518BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Palatine_High_School.xcdatamodel; sourceTree = "<group>"; };
+		B6CBC3C81A22540500518BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6CBC3CB1A22540500518BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CBC3CD1A22540500518BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6CBC3D01A22540500518BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palatine High SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CBC3DB1A22540500518BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palatine_High_SchoolTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CBC3BB1A22540500518BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D31A22540500518BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6CBC3B51A22540500518BFC = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3C01A22540500518BFC /* Palatine High School */,
+				B6CBC3D91A22540500518BFC /* Palatine High SchoolTests */,
+				B6CBC3BF1A22540500518BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CBC3BF1A22540500518BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3BE1A22540500518BFC /* Palatine High School.app */,
+				B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CBC3C01A22540500518BFC /* Palatine High School */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3C31A22540500518BFC /* AppDelegate.swift */,
+				B6CBC3C81A22540500518BFC /* ViewController.swift */,
+				B6CBC3CA1A22540500518BFC /* Main.storyboard */,
+				B6CBC3CD1A22540500518BFC /* Images.xcassets */,
+				B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */,
+				B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */,
+				B6CBC3C11A22540500518BFC /* Supporting Files */,
+			);
+			path = "Palatine High School";
+			sourceTree = "<group>";
+		};
+		B6CBC3C11A22540500518BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3C21A22540500518BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6CBC3D91A22540500518BFC /* Palatine High SchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */,
+				B6CBC3DA1A22540500518BFC /* Supporting Files */,
+			);
+			path = "Palatine High SchoolTests";
+			sourceTree = "<group>";
+		};
+		B6CBC3DA1A22540500518BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CBC3DB1A22540500518BFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CBC3BD1A22540500518BFC /* Palatine High School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CBC3E01A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High School" */;
+			buildPhases = (
+				B6CBC3BA1A22540500518BFC /* Sources */,
+				B6CBC3BB1A22540500518BFC /* Frameworks */,
+				B6CBC3BC1A22540500518BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palatine High School";
+			productName = "Palatine High School";
+			productReference = B6CBC3BE1A22540500518BFC /* Palatine High School.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6CBC3D51A22540500518BFC /* Palatine High SchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CBC3E31A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High SchoolTests" */;
+			buildPhases = (
+				B6CBC3D21A22540500518BFC /* Sources */,
+				B6CBC3D31A22540500518BFC /* Frameworks */,
+				B6CBC3D41A22540500518BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CBC3D81A22540500518BFC /* PBXTargetDependency */,
+			);
+			name = "Palatine High SchoolTests";
+			productName = "Palatine High SchoolTests";
+			productReference = B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CBC3B61A22540500518BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dominic Vitucci";
+				TargetAttributes = {
+					B6CBC3BD1A22540500518BFC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B6CBC3D51A22540500518BFC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B6CBC3BD1A22540500518BFC;
+					};
+				};
+			};
+			buildConfigurationList = B6CBC3B91A22540500518BFC /* Build configuration list for PBXProject "Palatine High School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6CBC3B51A22540500518BFC;
+			productRefGroup = B6CBC3BF1A22540500518BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CBC3BD1A22540500518BFC /* Palatine High School */,
+				B6CBC3D51A22540500518BFC /* Palatine High SchoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CBC3BC1A22540500518BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CBC3CC1A22540500518BFC /* Main.storyboard in Resources */,
+				B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */,
+				B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D41A22540500518BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CBC3BA1A22540500518BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CBC3C91A22540500518BFC /* ViewController.swift in Sources */,
+				B6CBC3C41A22540500518BFC /* AppDelegate.swift in Sources */,
+				B6CBC3C71A22540500518BFC /* Palatine_High_School.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CBC3D21A22540500518BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CBC3DD1A22540500518BFC /* Palatine_High_SchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6CBC3D81A22540500518BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CBC3BD1A22540500518BFC /* Palatine High School */;
+			targetProxy = B6CBC3D71A22540500518BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6CBC3CA1A22540500518BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CBC3CB1A22540500518BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CBC3D01A22540500518BFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CBC3DE1A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CBC3DF1A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CBC3E11A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6CBC3E21A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6CBC3E41A22540500518BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Palatine High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatine High School.app/Palatine High School";
+			};
+			name = Debug;
+		};
+		B6CBC3E51A22540500518BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Palatine High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatine High School.app/Palatine High School";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CBC3B91A22540500518BFC /* Build configuration list for PBXProject "Palatine High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3DE1A22540500518BFC /* Debug */,
+				B6CBC3DF1A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CBC3E01A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3E11A22540500518BFC /* Debug */,
+				B6CBC3E21A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6CBC3E31A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High SchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CBC3E41A22540500518BFC /* Debug */,
+				B6CBC3E51A22540500518BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */,
+			);
+			currentVersion = B6CBC3C61A22540500518BFC /* Palatine_High_School.xcdatamodel */;
+			path = Palatine_High_School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6CBC3B61A22540500518BFC /* Project object */;
+}
