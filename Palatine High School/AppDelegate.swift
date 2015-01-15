@@ -17,8 +17,66 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        //Parse.com Setup
+        Parse.setApplicationId("WU5ZB3cSqPD0OSn1IsaWr434pk6d76h71ZhLoxJn", clientKey:"LNSqSka1gbi4q3KP2bLZQ2al6cC9EJFC0bCAe8PT")
+        
+        
+        //Parse.com Analytics Setup
+        PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
+        
+        
+        if application.respondsToSelector("isRegisteredForRemoteNotifications")
+        {
+            // iOS 8 Notifications
+            // Code for iOS 8 with Parse.com
+            
+            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: (.Badge | .Sound | .Alert), categories: nil));
+            application.registerForRemoteNotifications()
+            NSLog("Device is running iOS 8 or above")
+        }
+        else
+        {
+            // iOS < 8 Notifications
+            // Code for iOS 7 with Parse.com
+            
+            application.registerForRemoteNotificationTypes(.Badge | .Sound | .Alert)
+            NSLog("Device is running iOS 7 or earlier")
+        }
+        
         return true
     }
+    
+    
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings!) {
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+        
+    }
+    
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        
+        var currentInstallation: PFInstallation = PFInstallation.currentInstallation()
+        currentInstallation.setDeviceTokenFromData(deviceToken)
+        currentInstallation.saveInBackground()
+        
+        println("got device id! \(deviceToken)")
+        
+    }
+    
+    
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        println(error.localizedDescription)
+        println("could not register: \(error)")
+    }
+    
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        PFPush.handlePush(userInfo)
+    }
+
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
