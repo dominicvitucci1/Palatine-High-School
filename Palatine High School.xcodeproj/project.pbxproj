@@ -14,6 +14,20 @@
 		B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CD1A22540500518BFC /* Images.xcassets */; };
 		B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */; };
 		B6CBC3DD1A22540500518BFC /* Palatine_High_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */; };
+		B6CBC3E71A22549100518BFC /* PHS Home Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3E61A22549100518BFC /* PHS Home Screen.jpg */; };
+		B6CBC3E91A22567B00518BFC /* cutlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3E81A22567B00518BFC /* cutlassView.swift */; };
+		B6CBC3EB1A22568A00518BFC /* facebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EA1A22568A00518BFC /* facebookView.swift */; };
+		B6CBC3ED1A22569B00518BFC /* twitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EC1A22569B00518BFC /* twitterView.swift */; };
+		B6CBC3EF1A2270E100518BFC /* sportsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */; };
+		B6CBC3F31A2307B600518BFC /* PHS food Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3F01A2307B600518BFC /* PHS food Screen.png */; };
+		B6CBC3F41A2307B600518BFC /* PHS Home Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3F11A2307B600518BFC /* PHS Home Screen.png */; };
+		B6CBC3F51A2307B600518BFC /* PHS my Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CBC3F21A2307B600518BFC /* PHS my Screen.png */; };
+		B6CBC3F71A230BEE00518BFC /* suggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3F61A230BEE00518BFC /* suggestionView.swift */; };
+		B6CBC3F91A230D7500518BFC /* eventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3F81A230D7500518BFC /* eventView.swift */; };
+		B6CBC3FB1A230F0B00518BFC /* bellScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */; };
+		B6CBC3FD1A230F8D00518BFC /* schoolStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */; };
+		B6CBC3FF1A23116C00518BFC /* gradebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC3FE1A23116C00518BFC /* gradebookView.swift */; };
+		B6CBC4011A23120700518BFC /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CBC4001A23120700518BFC /* menuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +52,20 @@
 		B6CBC3D61A22540500518BFC /* Palatine High SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Palatine High SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CBC3DB1A22540500518BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CBC3DC1A22540500518BFC /* Palatine_High_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palatine_High_SchoolTests.swift; sourceTree = "<group>"; };
+		B6CBC3E61A22549100518BFC /* PHS Home Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PHS Home Screen.jpg"; sourceTree = "<group>"; };
+		B6CBC3E81A22567B00518BFC /* cutlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cutlassView.swift; sourceTree = "<group>"; };
+		B6CBC3EA1A22568A00518BFC /* facebookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebookView.swift; sourceTree = "<group>"; };
+		B6CBC3EC1A22569B00518BFC /* twitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twitterView.swift; sourceTree = "<group>"; };
+		B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sportsCalendarView.swift; sourceTree = "<group>"; };
+		B6CBC3F01A2307B600518BFC /* PHS food Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PHS food Screen.png"; sourceTree = "<group>"; };
+		B6CBC3F11A2307B600518BFC /* PHS Home Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PHS Home Screen.png"; sourceTree = "<group>"; };
+		B6CBC3F21A2307B600518BFC /* PHS my Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PHS my Screen.png"; sourceTree = "<group>"; };
+		B6CBC3F61A230BEE00518BFC /* suggestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suggestionView.swift; sourceTree = "<group>"; };
+		B6CBC3F81A230D7500518BFC /* eventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventView.swift; sourceTree = "<group>"; };
+		B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bellScheduleView.swift; sourceTree = "<group>"; };
+		B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schoolStoreView.swift; sourceTree = "<group>"; };
+		B6CBC3FE1A23116C00518BFC /* gradebookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gradebookView.swift; sourceTree = "<group>"; };
+		B6CBC4001A23120700518BFC /* menuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +110,16 @@
 				B6CBC3C31A22540500518BFC /* AppDelegate.swift */,
 				B6CBC3C81A22540500518BFC /* ViewController.swift */,
 				B6CBC3CA1A22540500518BFC /* Main.storyboard */,
+				B6CBC4001A23120700518BFC /* menuView.swift */,
+				B6CBC3FE1A23116C00518BFC /* gradebookView.swift */,
+				B6CBC3FC1A230F8D00518BFC /* schoolStoreView.swift */,
+				B6CBC3FA1A230F0B00518BFC /* bellScheduleView.swift */,
+				B6CBC3F81A230D7500518BFC /* eventView.swift */,
+				B6CBC3F61A230BEE00518BFC /* suggestionView.swift */,
+				B6CBC3EE1A2270E100518BFC /* sportsCalendarView.swift */,
+				B6CBC3E81A22567B00518BFC /* cutlassView.swift */,
+				B6CBC3EC1A22569B00518BFC /* twitterView.swift */,
+				B6CBC3EA1A22568A00518BFC /* facebookView.swift */,
 				B6CBC3CD1A22540500518BFC /* Images.xcassets */,
 				B6CBC3CF1A22540500518BFC /* LaunchScreen.xib */,
 				B6CBC3C51A22540500518BFC /* Palatine_High_School.xcdatamodeld */,
@@ -93,6 +131,10 @@
 		B6CBC3C11A22540500518BFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6CBC3F01A2307B600518BFC /* PHS food Screen.png */,
+				B6CBC3F11A2307B600518BFC /* PHS Home Screen.png */,
+				B6CBC3F21A2307B600518BFC /* PHS my Screen.png */,
+				B6CBC3E61A22549100518BFC /* PHS Home Screen.jpg */,
 				B6CBC3C21A22540500518BFC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CBC3F51A2307B600518BFC /* PHS my Screen.png in Resources */,
 				B6CBC3CC1A22540500518BFC /* Main.storyboard in Resources */,
 				B6CBC3D11A22540500518BFC /* LaunchScreen.xib in Resources */,
+				B6CBC3F41A2307B600518BFC /* PHS Home Screen.png in Resources */,
+				B6CBC3E71A22549100518BFC /* PHS Home Screen.jpg in Resources */,
+				B6CBC3F31A2307B600518BFC /* PHS food Screen.png in Resources */,
 				B6CBC3CE1A22540500518BFC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CBC3ED1A22569B00518BFC /* twitterView.swift in Sources */,
 				B6CBC3C91A22540500518BFC /* ViewController.swift in Sources */,
+				B6CBC3FD1A230F8D00518BFC /* schoolStoreView.swift in Sources */,
+				B6CBC3FF1A23116C00518BFC /* gradebookView.swift in Sources */,
+				B6CBC3F71A230BEE00518BFC /* suggestionView.swift in Sources */,
+				B6CBC3EB1A22568A00518BFC /* facebookView.swift in Sources */,
+				B6CBC3F91A230D7500518BFC /* eventView.swift in Sources */,
 				B6CBC3C41A22540500518BFC /* AppDelegate.swift in Sources */,
+				B6CBC4011A23120700518BFC /* menuView.swift in Sources */,
+				B6CBC3FB1A230F0B00518BFC /* bellScheduleView.swift in Sources */,
+				B6CBC3EF1A2270E100518BFC /* sportsCalendarView.swift in Sources */,
+				B6CBC3E91A22567B00518BFC /* cutlassView.swift in Sources */,
 				B6CBC3C71A22540500518BFC /* Palatine_High_School.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +398,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +410,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Palatine High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +471,7 @@
 				B6CBC3E21A22540500518BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6CBC3E31A22540500518BFC /* Build configuration list for PBXNativeTarget "Palatine High SchoolTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +480,7 @@
 				B6CBC3E51A22540500518BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
